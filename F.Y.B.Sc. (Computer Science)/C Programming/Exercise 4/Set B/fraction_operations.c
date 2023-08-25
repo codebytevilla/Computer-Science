@@ -61,5 +61,5 @@ int main()
         default:
             printf("\nInvalid choice.\n");
         }
-    } while (choice != 5);
+    } while (choice != 4);
 }
