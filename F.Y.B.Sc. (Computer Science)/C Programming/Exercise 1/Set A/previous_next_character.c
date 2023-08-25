@@ -16,15 +16,6 @@ int main() {
   prev_ch = ch - 1;
   next_ch = ch + 1;
 
-  // Check whether the entered character is an alphabet, a digit, or a special character.
-  if (ch >= 'a' && ch <= 'z') {
-    printf("The entered character is an alphabet.\n");
-  } else if (ch >= '0' && ch <= '9') {
-    printf("The entered character is a digit.\n");
-  } else {
-    printf("The entered character is a special character.\n");
-  }
-
   // Print the previous and next character of the entered character.
   printf("The previous character is %c.\n", prev_ch);
   printf("The next character is %c.\n", next_ch);
