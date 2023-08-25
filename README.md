@@ -1,0 +1,2 @@
+# Computer-Science
+ This repository contains solutions to practicals for computer science courses. The solutions are written in a variety of programming languages, including C, C++, Java, Python, and JavaScript. The solutions are organized by course and topic.  This repository is intended to help students learn and understand computer science concepts by providing them with working code that they can use as a reference. The solutions are also a valuable resource for instructors who are looking for examples of how to solve common programming problems.
