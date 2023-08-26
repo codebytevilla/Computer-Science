@@ -3,7 +3,8 @@
 
 #include <stdio.h>
 
-int main() {
+int main()
+{
 
   /* Declare variables */
   int a, b;
@@ -22,5 +23,4 @@ int main() {
   /* Print results */
   printf("Arithmetic mean = %.2f\n", arithmetic_mean);
   printf("Harmonic mean = %.2f\n", harmonic_mean);
-
 }
