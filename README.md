@@ -1,5 +1,7 @@
 # Computer Science Labbook Practical Solutions
 
+🔗 **Repository Link:** [Computer Science Labbook Practical Solutions](https://github.com/codebytevilla/Computer-Science)
+
 This repository contains solutions to practicals for computer science courses. The solutions are written in a variety of programming languages, including C, C++, Java, Python, and JavaScript. The solutions are organized by course and topic.
 
 ## Intended Audience
