@@ -1,21 +1,24 @@
 // This program defines a function to count the occurrences of a given key in an array of integers.
 
-
 #include <stdio.h>
 
 // Function to count occurrences of a key in an array
-int countOccurrences(int arr[], int n, int key) {
+int countOccurrences(int arr[], int n, int key)
+{
     int i;
     int count = 0;
-    for (i = 0; i < n; i++) {
-        if (arr[i] == key) {
+    for (i = 0; i < n; i++)
+    {
+        if (arr[i] == key)
+        {
             count++;
         }
     }
     return count;
 }
 
-int main() {
+int main()
+{
     int n;
     int key;
     int occurrences;
@@ -25,7 +28,8 @@ int main() {
     scanf("%d", &n);
 
     printf("Enter the elements of the array:\n");
-    for (int i = 0; i < n; i++) {
+    for (int i = 0; i < n; i++)
+    {
         scanf("%d", &arr[i]);
     }
 
@@ -34,5 +38,4 @@ int main() {
 
     occurrences = countOccurrences(arr, n, key);
     printf("The key %d appears %d times in the array.\n", key, occurrences);
-
 }
