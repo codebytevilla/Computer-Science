@@ -34,7 +34,7 @@ void performSum(int matrix[100][100], int m, int n)
 {
     int sumMatrix[100][100]; // Assuming a maximum size for the result matrix
     int i, j;
-    int rowSum, colSum;
+    int rowSum, colSum, totalColSum;
 
     // Calculate the sums of rows and fill the result matrix
     for (i = 0; i < m; i++)
@@ -58,6 +58,14 @@ void performSum(int matrix[100][100], int m, int n)
         }
         sumMatrix[m][j] = colSum; // Store the column sum in the last row
     }
+
+    // Calculate the sum of the last column (total column sum)
+    totalColSum = 0;
+    for (i = 0; i < m; i++)
+    {
+        totalColSum += sumMatrix[i][n];        
+    }
+    sumMatrix[m][n] = totalColSum;
 
     // Display the result matrix
     printf("The (m+1) x (n+1) matrix with row and column sums:\n");
