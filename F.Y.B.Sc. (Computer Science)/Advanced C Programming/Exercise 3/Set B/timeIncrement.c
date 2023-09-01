@@ -1,11 +1,13 @@
-//This program defines a function to increment a given time by a specified number of seconds.
+
+// This program defines a function to increment a given time by a specified number of seconds.
 
 #include <stdio.h>
 
 // Function to increment time by s seconds
-void incrementTime(int *hours, int *minutes, int *seconds, int s) {
+void incrementTime(int *hours, int *minutes, int *seconds, int s)
+{
     int totalSeconds = *hours * 3600 + *minutes * 60 + *seconds; // Convert current time to seconds
-    totalSeconds += s; // Increment by s seconds
+    totalSeconds += s;                                           // Increment by s seconds
 
     // Calculate new hours, minutes, and seconds
     *hours = (totalSeconds / 3600) % 24; // Ensure hours are in the range [0, 23]
@@ -13,7 +15,8 @@ void incrementTime(int *hours, int *minutes, int *seconds, int s) {
     *seconds = totalSeconds % 60;
 }
 
-int main() {
+int main()
+{
     int hours, minutes, seconds, s;
 
     // Input time from the user
