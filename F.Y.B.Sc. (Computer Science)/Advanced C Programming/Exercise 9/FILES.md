@@ -104,4 +104,4 @@ int main(int argc, char *argv[]) {
 }
 ```
 
-This program reads and displays the contents of a text file specified as a command line argument.
+This program reads and displays the contents of a text file specified as a command line argument. 
