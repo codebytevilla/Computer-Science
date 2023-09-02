@@ -13,7 +13,9 @@ struct student
 // Function to search for a student by roll number
 void searchStudent(struct student students[], int n, int roll)
 {
-    for (int i = 0; i < n; i++)
+    int i;
+
+    for (i = 0; i < n; i++)
     {
         if (students[i].roll_number == roll)
         {
@@ -103,7 +105,7 @@ void displayStudentWithMaxPercentage(struct student students[], int n)
 
 int main()
 {
-    int n;
+    int n, i;
     int choice, roll;
     float threshold;
     printf("Enter the number of students: ");
@@ -113,7 +115,7 @@ int main()
     struct student students[n];
 
     // Input student details
-    for (int i = 0; i < n; i++)
+    for (i = 0; i < n; i++)
     {
         printf("Enter details for student %d:\n", i + 1);
         printf("Roll Number: ");
