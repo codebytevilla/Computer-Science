@@ -1,6 +1,6 @@
-**Function Signature:**
+## Function Signature
 
-```
+```c
 void qsort(void *base, size_t numElements, size_t sizeOfElement, int (*compare)(const void*, const void*));
 ```
 
