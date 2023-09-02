@@ -1,4 +1,4 @@
-# Programming Assignments Repository
+# C Programming Assignments
 
 This repository contains a series of programming assignments aimed at demonstrating various concepts in programming using the C language. Each assignment focuses on different aspects of C programming to help you build a strong foundation in this language.
 
@@ -41,3 +41,7 @@ To get started with any assignment, simply navigate to the respective assignment
 ## Contributing
 
 If you would like to contribute to this repository by adding more assignments, fixing issues, or improving documentation, please feel free to fork this repository and submit a pull request. We welcome contributions from the community.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
