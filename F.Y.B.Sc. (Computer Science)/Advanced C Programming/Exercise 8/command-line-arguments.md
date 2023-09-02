@@ -2,7 +2,7 @@
 
 ## Command Line Arguments in C
 
-Command-line arguments are values provided to a C program when it is executed from the command line or terminal. These arguments allow you to pass data or configuration options to your program without modifying the source code. Command-line arguments are accessible through the `main` function's parameter list.
+Command-line arguments are values provided to a C program when it is executed from the command line or terminal. These arguments allow you to pass data or configuration options to your program without modifying the source code. Command-line arguments are accessible through the `main` function's parameter list. 
 
 In C, the `main` function typically has the following prototype:
 
