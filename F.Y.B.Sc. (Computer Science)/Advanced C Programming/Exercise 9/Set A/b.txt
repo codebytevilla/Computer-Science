@@ -1,0 +1,23 @@
+#INCLUDE <STDIO.H>
+#INCLUDE <CTYPE.H>
+VOID MAIN()
+{
+    file *FP;
+    FP = FOPEN(“A.TXT”, “R”);
+    IF (FP == null)
+    {
+        PRINTF(“fILE OPENING ERROR”);
+        EXIT(0);
+    }
+    WHILE (!FEOF(FP))
+    {
+        CH = FGETC(FP);
+        IF (ISUPPER(CH))
+            PUTCHAR(TOLOWER(CH));
+        ELSE IF (ISLOWER(CH))
+            PUTCHAR(TOUPPER(CH));
+        ELSE
+            PUTCHAR(CH);
+    }
+    FCLOSE(FP);
+}
