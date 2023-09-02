@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <ctype.h>
+void main()
+{
+    FILE *fp;
+    fp = fopen(“a.txt”, “r”);
+    if (fp == NULL)
+    {
+        printf(“File opening error”);
+        exit(0);
+    }
+    while (!feof(fp))
+    {
+        ch = fgetc(fp);
+        if (isupper(ch))
+            putchar(tolower(ch));
+        else if (islower(ch))
+            putchar(toupper(ch));
+        else
+            putchar(ch);
+    }
+    fclose(fp);
+}
