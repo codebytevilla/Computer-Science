@@ -50,6 +50,6 @@ If you would like to contribute to this repository by adding more assignments, f
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](/LICENSE) file for details.
 
 Happy coding!
