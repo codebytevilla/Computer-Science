@@ -54,4 +54,3 @@ Here are some common preprocessor directives:
 - `#pragma`: This directive provides compiler-specific instructions. It is often used for optimization or other compiler-specific settings.
 
 Preprocessor directives are processed before the actual code is compiled, and they do not result in machine code but rather affect how the code is compiled.
-```
