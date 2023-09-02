@@ -1,12 +1,6 @@
+**Function Signature:**
 
-```markdown
-# qsort Function in C
-
-The `qsort` function in C is a powerful tool for sorting arrays or collections of elements. It uses the QuickSort algorithm, a highly efficient sorting method. This `readme.md` provides an overview of the `qsort` function, its parameters, and how to use it.
-
-## Function Signature
-
-```c
+```
 void qsort(void *base, size_t numElements, size_t sizeOfElement, int (*compare)(const void*, const void*));
 ```
 
