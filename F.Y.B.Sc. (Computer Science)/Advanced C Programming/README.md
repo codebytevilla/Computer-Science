@@ -48,4 +48,8 @@ To get started with any assignment, simply navigate to the respective assignment
 
 If you would like to contribute to this repository by adding more assignments, fixing issues, or improving documentation, please feel free to fork this repository and submit a pull request. We welcome contributions from the community.
 
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
 Happy coding!
