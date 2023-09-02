@@ -5,8 +5,9 @@
 int searchCharacter(char str[], char ch)
 {
     int length = strlen(str);
+    int i;
 
-    for (int i = 0; i < length; i++)
+    for (i = 0; i < length; i++)
     {
         if (str[i] == ch)
         {
@@ -21,6 +22,7 @@ int main()
 {
     char inputString[100];
     char searchChar;
+    int position;
 
     // Input string from the user
     printf("Enter a string: ");
@@ -31,7 +33,7 @@ int main()
     scanf(" %c", &searchChar); // Notice the space before %c to consume the newline character
 
     // Call the search function and get the result
-    int position = searchCharacter(inputString, searchChar);
+    position = searchCharacter(inputString, searchChar);
 
     if (position != -1)
     {
